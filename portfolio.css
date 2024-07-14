@@ -1,0 +1,127 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared Style */
+
+.text-center{
+    text-align: center;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+}
+section-title{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+.color-bg{
+    background-color: #FFF8F3;
+}
+
+.text-primary{
+    color: #FD6E0A
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    /* display: flex; */
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px; ;
+
+
+}
+nav li a{
+    text-decoration: none;
+
+}
+.dark-2{
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+background-color: #FD6E0A;
+border: none;
+font-weight: bold;
+color: #FFFFFF;
+padding: 18px 35px;
+border-radius: 5px;
+font-size: 20px;
+}
+/* banner styles */
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-titles{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 584px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+/* header */
+.header{
+    background-image: url("images/developer.png"), url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    text-align: center;
+    /* justify-content: center; */
+    border-radius: 10px;
+    padding: 130px 150px;
+    /* margin-top: 130px; */
+    border-radius: 10px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.section-title{
+    font-size: 35px;
+}
+/* Skill Section */
+.skill-container{
+    display: flex;
+    /* margin: 10px; */
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+main section{
+    margin-top: 130px;
+}
